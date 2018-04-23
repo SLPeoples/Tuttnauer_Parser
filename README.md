@@ -29,7 +29,7 @@ optional arguments:
 
 ```
 
-1. Download the repository and navigate to the Tuttnauer_Parser directory.
+1. Download/ clone the repository and navigate to the Tuttnauer_Parser directory.
 
 2. Execute:
 
