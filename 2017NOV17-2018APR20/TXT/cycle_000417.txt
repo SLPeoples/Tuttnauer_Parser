@@ -1,0 +1,27 @@
+ 
+ 
+------------------------
+------------------------
+Date: 15/MAR/2018
+Time: 12:42:06
+Ser. Num: 16032087
+Model: ELARA11
+Version: 0
+Software vers.: 2.0.3.98
+Cycle Num: 000417
+Extra Drying Time
+Time 5 min
+End Temperature 248 °F
+  Time     °F    Psig
+D 00:00:06 207.1 00.59
+D 00:03:06 205.3 16.03In
+D 00:05:06 202.3 20.67In
+  00:05:12 201.9 21.17In
+  00:05:45 204.3 00.86In
+Status: Process Done
+Time: 12:47:51
+Operator: ____________
+------------------------
+------------------------
+ 
+ 
