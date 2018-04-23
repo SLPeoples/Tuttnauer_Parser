@@ -11,20 +11,11 @@ usage:
 
     python setup.py install
 	
-3. Navigate to the directory containing your data files. In this instance, the format is:
-  
-    Date1-Date2 ---CYC
-                \
-				 ---TXT
+3. Navigate to the directory containing your data files. In this instance, the TXT directory is in the current 
+working directory.
 
 4. Execute:
 
     tuttnauer-parser -i ./TXT/ -o ./
 	
 5. Output file will be saved to the current directory.
-  
-    Date1-Date2 ---CYC
-                \
-				 ---TXT
-                 \
-                  ---tuttnauer_combined.csv 
