@@ -1,6 +1,6 @@
 """A setuptools based setup module.
 https://github.com/pypa/sampleproject
-""" 
+"""
 
 from setuptools import setup, find_packages
 from codecs import open
