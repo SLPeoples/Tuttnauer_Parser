@@ -22,7 +22,10 @@ class Test_tuttnauer_parser(unittest.TestCase):
         output = "./"
         verbose = True
         self.df = tuttnauer_parser.parse_input(input, output, verbose)
+    
+    
     def tearDown(self):
+        print(self._testMethodName)
         del self.df
 
 
