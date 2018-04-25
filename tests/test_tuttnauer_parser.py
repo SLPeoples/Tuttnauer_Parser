@@ -21,7 +21,6 @@ class Test_tuttnauer_parser(unittest.TestCase):
         input = testdir+"/data/"
         output = "./"
         verbose = True
-        print(input)
         self.df = tuttnauer_parser.parse_input(input, output, verbose)
     def tearDown(self):
         del self.df
