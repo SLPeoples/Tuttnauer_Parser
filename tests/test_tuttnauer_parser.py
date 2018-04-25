@@ -15,18 +15,13 @@ from warnings import catch_warnings
 import tuttnauer_parser
 import pandas as pd
 
-"""
-Tests for spatial_ornstein_uhlenbeck.py
-"""
-
-
 class Test_tuttnauer_parser(unittest.TestCase):
 
     def setUp(self):
         input = testdir+"/data/"
         output = "./"
         verbose = True
-
+        print(input)
         self.df = tuttnauer_parser.parse_input(input, output, verbose)
     def tearDown(self):
         del self.df
