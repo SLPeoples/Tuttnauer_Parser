@@ -23,7 +23,7 @@ Tests for spatial_ornstein_uhlenbeck.py
 class Test_tuttnauer_parser(unittest.TestCase):
 
     def setUp(self):
-        input = "./data/"
+        input = testdir+"/data/"
         output = "./"
         verbose = True
 
