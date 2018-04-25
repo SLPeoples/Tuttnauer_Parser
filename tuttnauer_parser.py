@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf8
 from __future__ import division
 import pandas as pd
 import os
