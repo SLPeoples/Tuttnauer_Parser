@@ -16,7 +16,7 @@ optional arguments:
                         PATH to TXT file directory
   -o OUTPUT, --output OUTPUT
                         PATH to output DIRECTORY. Default:
-                        .~\[feature]_network_analysis.txt
+                        ./TXT/
   -v, --verbose         display verbose output while program runs.
                         Default:True
   --version             display version number and exit
