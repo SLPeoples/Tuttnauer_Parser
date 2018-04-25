@@ -119,6 +119,7 @@ def parse_input(input, output, verbose):
                           'setSterTemp', 'setSterTime', 'setDryTime', 'setEndTemp', 'cycleStatus',
                           'cycleTime', 'cycleTemp', 'cyclePSI'], axis=1)
     df.to_csv(output + os.getcwd().split("\\")[-1]+".csv", index=False)
+    return df
 
 
 def append_rows_8(i, contents, cycleNum, cycleName, cycleDate, startTime, endTime, serialNum, modelNum,
