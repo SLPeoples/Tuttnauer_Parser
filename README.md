@@ -1,6 +1,7 @@
 # Tuttnauer_Parser
+## t-parse
 ```
-usage: tuttnauer-parser [-h] -i INPUT [-o OUTPUT] [-v] [--version]
+usage: t-parse [-h] -i INPUT [-o OUTPUT] [-v] [--version]
 
         Parse all TXT files in directory from Tuttnauer Elara11 Output to single CSV for analysis.
 
@@ -40,6 +41,8 @@ working directory.
 
 4. Execute:
 
-    ```tuttnauer-parser -i ./TXT/ -o ./```
+    ```t-parse```
 	
 5. Output file will be saved to the current directory.
+
+![Image](https://i.imgur.com/enzkBV5.png)
