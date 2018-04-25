@@ -1,5 +1,8 @@
 # Tuttnauer_Parser
 ## t-parse
+
+[![Build Status](https://travis-ci.org/SLPeoples/Tuttnauer_Parser.svg?branch=master)](https://travis-ci.org/SLPeoples/Tuttnauer_Parser)
+
 ```
 usage: t-parse [-h] -i INPUT [-o OUTPUT] [-v] [--version]
 
