@@ -14,9 +14,10 @@ optional arguments:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
                         PATH to TXT file directory
+			Default: ./
   -o OUTPUT, --output OUTPUT
-                        PATH to output DIRECTORY. Default:
-                        ./TXT/
+                        PATH to output DIRECTORY. 
+			Default: ./TXT/
   -v, --verbose         display verbose output while program runs.
                         Default:True
   --version             display version number and exit
