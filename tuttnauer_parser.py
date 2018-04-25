@@ -72,7 +72,7 @@ def parse_input(input, output, verbose):
     Cycle Num: 000100
     WRAPPED INSTU
     (Customized)
-    Ster. Temp. 273.2 °F
+    Ster. Temp. 273.2 *F
     Ster. Time 5.0 min*
     Dry Time 20 min
     End Temperature 248 °F
