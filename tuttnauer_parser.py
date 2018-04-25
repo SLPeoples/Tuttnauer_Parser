@@ -118,7 +118,7 @@ def parse_input(input, output, verbose):
                           'cycleNum', 'cycleName', 'cycleEnd', 'cycleDate', 'startTime', 'endTime',
                           'setSterTemp', 'setSterTime', 'setDryTime', 'setEndTemp', 'cycleStatus',
                           'cycleTime', 'cycleTemp', 'cyclePSI'], axis=1)
-    df.to_csv(output + os.getcwd().split("\\")[-1]+".csv", index=False)
+    df.to_csv(output + "combined_history.csv", index=False)
     return df
 
 
@@ -200,7 +200,7 @@ def main():
     if verbose:
         print("tuttnauer_parser.py")
         print("\t input:", input)
-        print("\t output:" +output +os.getcwd().split("\\")[-1]+".csv")
+        print("\t output:" +output +"combined_history.csv")
 
     parse_input(input, output, verbose)
 
