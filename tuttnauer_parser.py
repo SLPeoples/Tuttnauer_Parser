@@ -35,11 +35,10 @@ def make_commandline_interface():
     parser = ArgumentParser(description=short_description, \
                             epilog=long_description, formatter_class=RawDescriptionHelpFormatter)
 
-    # Required parameters
+    # Optional parameters
     parser.add_argument('-i', '--input', type=str, default="./TXT/", \
                         help='PATH to TXT file directory')
-
-    # Optional parameters
+    
     parser.add_argument('-o', '--output', type=str, default='./',
                         help='PATH to output DIRECTORY. Default: .~\[feature]_network_analysis.txt')
 
