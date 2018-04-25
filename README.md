@@ -17,10 +17,11 @@ optional arguments:
                         Default:True
   --version             display version number and exit
 
-        This script will read all TXT files in a directory and output their contents to a single, well-formatted CSV for
-        analysis in various software. The output TXT files are in a proprietary format which provide the user with
-        useful information when printed, but is not formatted well for analysis. The output CSV file will be able to be
-        used to better identify trends and potential issues during normal operation of the Tuttnauer Elara11 Sterilizer.
+        This script will read all TXT files in a directory and output their contents to a single, well-formatted 
+	CSV for analysis in various software. The output TXT files are in a proprietary format which provide the 
+	user with useful information when printed, but is not formatted well for analysis. The output CSV file 
+	will be able to be used to better identify trends and potential issues during normal operation of the 
+	Tuttnauer Elara11 Sterilizer.
 
         Example:         Tuttnauer_Parser.py
 
@@ -36,8 +37,8 @@ optional arguments:
 
     ```python setup.py install```
 	
-3. Navigate to the directory containing your data files. In this instance, the TXT directory is in the current 
-working directory.
+3. Navigate to the directory containing your data files. In this instance, the TXT directory is in 
+the current working directory.
 
 4. Execute:
 
