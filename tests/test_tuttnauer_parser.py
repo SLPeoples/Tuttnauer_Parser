@@ -25,7 +25,7 @@ class Test_tuttnauer_parser(unittest.TestCase):
     
     
     def tearDown(self):
-        print("\n",self._testMethodName)
+        print(self._testMethodName)
         del self.df
 
 
