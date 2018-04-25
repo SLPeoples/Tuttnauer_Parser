@@ -37,7 +37,6 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='tuttnauer elara',
-    packages=find_packages('parser', exclude=['tests']),
     py_modules=["tuttnauer_parser"],
     install_requires=[],
 
