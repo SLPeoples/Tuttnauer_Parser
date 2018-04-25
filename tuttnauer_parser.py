@@ -197,7 +197,7 @@ def main():
 
     verbose = args.verbose
     if verbose:
-        print("Tuttnauer_Parser.py")
+        print("tuttnauer_parser.py")
         print("\t input:", input)
         print("\t output:" +output +os.getcwd().split("\\")[-1]+".csv")
 
