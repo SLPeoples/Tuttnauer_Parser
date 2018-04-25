@@ -64,7 +64,7 @@ def parse_input(input, output, verbose):
     setDryTime, setEndTemp, cycleStatus, cycleTime, cycleTemp, cyclePSI, cycleEnd = ([] for i in range(17))
 
     for file in os.listdir(input):
-        f = open(input + file, 'r')
+        f = open(input + file, 'rb')
         content = f.readlines()
         contents = []
         i = 0
@@ -72,7 +72,7 @@ def parse_input(input, output, verbose):
             if i < 4:
                 pass
             else:
-                contents.append(line)
+                contents.append(str(line))
             i += 1
 
         if contents[8].startswith("Ster. Temp."):
