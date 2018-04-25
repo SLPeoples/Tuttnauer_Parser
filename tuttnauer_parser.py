@@ -73,7 +73,7 @@ def parse_input(input, output, verbose):
     WRAPPED INSTU
     (Customized)
     Ster. Temp. 273.2 °F
-    Ster. Time 5.0 min
+    Ster. Time 5.0 min*
     Dry Time 20 min
     End Temperature 248 °F
       Time     °F    Psig
