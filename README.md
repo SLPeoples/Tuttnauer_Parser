@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/SLPeoples/Tuttnauer_Parser.svg?branch=master)](https://travis-ci.org/SLPeoples/Tuttnauer_Parser)
 
+[Tableau Dashboard of Parsed Data](https://public.tableau.com/profile/samuel.l.peoples#!/vizhome/TuttnauerParser/TuttnauerParser)
+
+
 ## t-parse
 
 ```
